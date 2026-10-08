@@ -1,0 +1,6 @@
+.hero-art.ks-video-art{display:flex;align-items:center;justify-content:center;height:560px;position:relative}
+.ks-video-wrap{width:min(100%,420px);position:relative;border-radius:22px;overflow:hidden;box-shadow:0 25px 70px #0003;background:#464c52}
+.ks-video-wrap video{display:block;width:100%;height:auto;aspect-ratio:230/184;object-fit:contain}
+.ks-video-pause{position:absolute;bottom:12px;right:12px;padding:8px 14px;background:#061a3ddd;color:white;border:1px solid #ffffff55;border-radius:50px;font:12px Arial,sans-serif;cursor:pointer}
+.ks-video-pause:focus-visible{outline:2px solid white;outline-offset:3px}
+@media(max-width:700px){.hero-art.ks-video-art{height:360px}.ks-video-wrap{max-width:360px}}
