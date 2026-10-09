@@ -1,0 +1,9 @@
+.hero{position:relative;isolation:isolate;overflow:hidden}
+.hero-globe-3d{position:absolute;inset:0;z-index:0;pointer-events:none}
+.hero-globe-3d canvas{display:block;width:100%;height:100%}
+.hero:after{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,#061a3df2 0%,#061a3dd9 30%,#061a3d55 65%,#061a3d00)}
+.hero-grid,.hero-foot{position:relative;z-index:2}.hero-animation-space{height:560px}
+.sphere-3d-pause{position:absolute;right:24px;bottom:64px;z-index:3;border:1px solid #9bbbe166;border-radius:100px;padding:9px 14px;background:#061a3dcc;color:#fff;font:12px Arial,sans-serif;cursor:pointer}
+.sphere-3d-pause:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.sphere-static:before{content:'';position:absolute;width:70%;aspect-ratio:1;right:-10%;top:10%;border-radius:50%;background:radial-gradient(circle at 25% 25%,#b5ddff,#2a679f 40%,#061a3d 78%)}
+@media(max-width:700px){.hero-animation-space{height:150px}.hero:after{background:linear-gradient(180deg,#061a3dd9,#061a3d55)}.sphere-3d-pause{right:20px;bottom:50px}}
